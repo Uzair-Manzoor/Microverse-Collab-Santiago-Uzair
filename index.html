@@ -21,7 +21,24 @@
     - The freeCodeCamp Team
 
     -->
-    <h1>Hello World, we are software developers!</h1>
+    <h1 id="title">freeCodeCamp Survay Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <div>
+        <label id="name-label">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+      </div>
+      <div>
+        <label id="email-label">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required="">
+      </div>
+      <div>
+        <label id="number-label">Age (Optional)</label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+      </div>
+      <select id="dropdown" name="role" class="form-control" required="">
+        
+      </form>
 
     <script  src="js/index.js"></script>
   </body>
